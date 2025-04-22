@@ -2,15 +2,27 @@
   text-align: center;
 }
 
-.persona {
-  padding:20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  width: 25%;
-  background-color: rgb(145, 230, 230);
-  margin: auto;
-  margin-bottom: 10px;
+.titulo-lista {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333;
 }
+
+.lista-reportes {
+  height: 500px;
+  overflow-y: auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+
 .con{
   padding:20px;
   margin-top: 20px;
@@ -27,4 +39,101 @@
   height: 20px;
   border-radius: 10px;
   margin-left: 5px;
+}
+
+/* Contenedor de todo el bloque de arriba */
+.bloque-superior {
+  width: 85%;
+  margin: 20px auto;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Fila de títulos */
+.fila-titulos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Fila de bloques */
+.fila-bloques {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Títulos encima de los bloques */
+.titulo-segmento {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cada uno de los 3 bloques */
+.segmento {
+  flex: 1;
+  min-height: 450px; /* antes era 250px: lo aumentamos bastante */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  overflow: hidden; /* ya no hace falta scroll interno */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Estilos del formulario */
+.formulario-reporte {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formulario-reporte input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-reporte button {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario-reporte button:hover {
+  background-color: #45a049;
+}
+
+/* Lista de reportes */
+.lista-reportes {
+  height: 500px;
+  overflow-y: auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 85%;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Título de la lista de reportes */
+.titulo-lista {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333;
 }
