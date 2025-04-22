@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.persona {
+  padding:20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 25%;
+  background-color: rgb(145, 230, 230);
+  margin: auto;
+  margin-bottom: 10px;
+}
+.con{
+  padding:20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 10px; 
+  background-color: aquamarine;
+}
+.boton{
+  color:blue;
+  font-weight: bold;
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
