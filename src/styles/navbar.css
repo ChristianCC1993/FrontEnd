@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;         /* <-- Esta línea hace que quede fijo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;           /* <-- Se asegura que quede encima de todo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* opcional: sombra inferior */
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #002244;
+  border-radius: 4px;
+}
+
+.logout-button {
+  background-color: #af0707;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-right: 40px; /* <-- Agrega esto */
+}
+
+.logout-button:hover {
+  background-color: #990000;
+}
+
+.bienvenido {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #e7d7d7; /* dorado claro */
+}
